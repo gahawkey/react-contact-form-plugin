@@ -1,0 +1,27 @@
+{
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2024-03-27",
+      "description": "Initial version with custom CSS classes",
+      "key_changes": [
+        "Removed Tailwind CSS and PostCSS dependencies",
+        "Implemented custom CSS classes with nf-* prefix",
+        "Added two-column layout for name and phone fields",
+        "Set base font-size to 62.5% with rem units",
+        "Implemented focused component structure"
+      ],
+      "files_modified": [
+        "package.json",
+        "src/index.css",
+        "src/components/FormField.tsx",
+        "src/components/ContactForm.tsx"
+      ],
+      "files_removed": [
+        "postcss.config.js",
+        "tailwind.config.js"
+      ]
+    }
+  ],
+  "current_version": "1.0"
+}
